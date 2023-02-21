@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO HTML</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="container">
+    <div>
+        <h1>FORMULÁRIO Ebac</h1>
+        <h2>Bem vindo - Preencha os Campos </h2>
+        <form id="form-Validar">
+            <input type="number" id="num1" required placeholder="Campo A"> 
+            <input type="number" id="num2" required placeholder="Campo B">
+            <button type="submit" >Validar</button>
+        </form>
+        <p class="success_message"></p>
+        <span id="apagar">
+            <p class="error_message" style="background-color: rgba(253, 10, 10, 2);">O Formulário não foi validado</p>
+        </span>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./custom.js"></script>
+</body>
+</html>
